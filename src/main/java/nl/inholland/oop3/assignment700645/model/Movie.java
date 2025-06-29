@@ -1,3 +1,8 @@
 package nl.inholland.oop3.assignment700645.model;
 
-public class Movie {}
+public class Movie {
+  public int getRating() {
+    return rating;
+}
+
+}
