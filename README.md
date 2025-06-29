@@ -75,7 +75,7 @@ DELETE /api/movie/delete/{id}
 
 * Notes
 
-- **Real API integration is not included** due to lack of keys, but stub methods are clearly separated and easy to replace.
+- **Real API integration is not included** due to lack of keys, but stub methods are clearly separated and easy to replace. I had authentification trouble..
 - Code is structured using proper MVC principles and is cleanly documented for extension.
 
 * Author
