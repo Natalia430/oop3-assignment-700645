@@ -21,7 +21,11 @@ public class MovieService implements IMovieService {
 
     @Override
     public List<Movie> getAllMovies(int page, int size) {
-        return movieRepository.findAll(PageRequest.of(page, size)).getContent();
+        return movieRepository.findAll(PageRequest.of(page, size))
+                              .getContent()
+                              .stream()
+                              .filter(movie -> movie.getRating() >= 1)  // Stream API usage
+                              .toList();
     }
 
     @Override
