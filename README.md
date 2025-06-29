@@ -27,12 +27,12 @@ It is built for the OOP3 assignment and integrates with (stubbed) versions of OM
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/Natalia430/oop3_assignment_700645.git
+   git clone https://github.com/Natalia430/oop3-assignment-700645.git
    ```
 
 2. Navigate into the project folder:
    ```bash
-   cd oop3_assignment_700645
+   cd oop3-assignment-700645
    ```
 
 3. Build and run:
